@@ -4,6 +4,6 @@ services:
       context: ./backend
       dockerfile: Dockerfile.dev
     volumes:
-      - ./backend/app:/app
+      - ./backend:/app
     environment:
       - ENVIRONMENT=development
